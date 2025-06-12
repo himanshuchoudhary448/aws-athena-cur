@@ -8,8 +8,6 @@ regular aws services like Cost Explorer.
 
 ## 🔄 How it works
 
-<img src="https://i.imgur.com/8xwlWlp.png" alt="AWS Architecture" height="350" width="425">
-
 1. The script generates CUR reports and stores them on S3. These reports contain
    detailed billing information for your account.
 1. Changes in the CUR bucket trigger S3 event-notifications.
